@@ -1,10 +1,12 @@
 # ASP.NET MVC: как избавиться от папки Shared
-Если в Visual Studio 2008 создать ASP.NET MVC Web Application, то окажется, что в корне сайта есть папка Views, в которой есть папка Shared со следующими файлами: Site.Master, Error.aspx и LogOnUserControl.ascx; 
+Если в Visual Studio 2008 создать ASP.NET MVC Web Application, то окажется, что в корне сайта есть папка Views, в которой есть папка Shared со следующими файлами: Site.Master, Error.aspx и LogOnUserControl.ascx 
 
-Например, если удалить папку Shared, а файл Site.Master поместить в папку Views, то в рантайме получим сообщение об ошибке:
-System.InvalidOperationException was unhandled by user code, Message="The view 'Index' or its master could not be found. The following locations were searched: ~/Views/Home/Index.aspx, ~/Views/Home/Index.ascx, ~/Views/Shared/Index.aspx, ~/Views/Shared/Index.ascx", Source="System.Web.Mvc"
+Например, если удалить папку Shared, а файл Site.Master поместить в папку Views, то в рантайме получим сообщение об ошибке: 
+
+System.InvalidOperationException was unhandled by user code, Message="The view 'Index' or its master could not be found. The following locations were searched: ~/Views/Home/Index.aspx, ~/Views/Home/Index.ascx, ~/Views/Shared/Index.aspx, ~/Views/Shared/Index.ascx", Source="System.Web.Mvc" 
 
 Это можно исправить, если указать путь к файлам. Для этого в метод [AppInitialize] (http://cognitex.blogspot.com/2009/05/aspnet-mvc_25.html) или в файл Global.asax.cs в метод Application_Start надо добавить следующий код:
+
 ```c#
 ViewEngines.Engines.Clear();
 ViewEngines.Engines.Add(new WebFormViewEngine
