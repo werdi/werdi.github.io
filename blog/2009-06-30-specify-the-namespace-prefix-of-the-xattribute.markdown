@@ -1,5 +1,5 @@
 # Как определить префикс у имени XAttribute
-Если требуется программно создать xml:
+Если требуется программно создать xaml:
 ```xml
 <Grid>
   	<Style x:Key="Style1">
@@ -22,7 +22,7 @@ var grid = new XElement("Grid",
     	);
 ```
 Определять XAttribute у Grid - обязательно, иначе в теге Style у атрибута Key получим другой префикс:
-```xml
+```xaml
 <Style p2:Key="Style1" xmlns:p2="http://schemas.microsoft.com/winfx/2006/xaml">
 ```
 Тоже самое произойдет, если у тега Style вызвать метод Remove().
