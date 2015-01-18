@@ -2,7 +2,7 @@
 Задача: после запуска WPF Application в system tray, т.е. в правом нижнем углу экрана должна появиться иконка; при щелчке мышью по иконке надо показать окно; закрытие окон не должно приводить к закрытию приложения.
 
 Реализовать иконку в system tray можно с помощью NotifyIcon; для этого в References проекта WPF Application надо: 
-<ol start="1">
+<ol>
   <li>добавить сборку System.Windows.Forms.dll</li>
   <li>в App.xaml у тега Application убрать атрибут StartupUri</li>
   <li>в App.cs в class App добавить конструктор</li>
