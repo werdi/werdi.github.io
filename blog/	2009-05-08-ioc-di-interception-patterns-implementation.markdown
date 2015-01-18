@@ -1,5 +1,5 @@
 # Реализация паттернов IoC, DI и Interception
-Паттерны: Inversion of Control (IoC), Dependency Injection (DI) и Interception реализованы в Unity (= Unity Application Block; есть исходники).
+Паттерны: Inversion of Control (IoC), Dependency Injection (DI) и Interception реализованы в [Unity] (http://unity.codeplex.com/) (= Unity Application Block; есть исходники).
 
 Перед компиляцией для папки Tests надо выполнить Unload Projects in Solution Folders (см. контекстное меню папки).
 
