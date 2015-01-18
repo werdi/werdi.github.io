@@ -1,0 +1,35 @@
+# ASP.NET MVC: как избавиться от папки Shared
+Если в Visual Studio 2008 создать ASP.NET MVC Web Application, то окажется, что в корне сайта есть папка Views, в которой есть папка Shared со следующими файлами: Site.Master, Error.aspx и LogOnUserControl.ascx; 
+
+Например, если удалить папку Shared, а файл Site.Master поместить в папку Views, то в рантайме получим сообщение об ошибке:
+System.InvalidOperationException was unhandled by user code, Message="The view 'Index' or its master could not be found. The following locations were searched: ~/Views/Home/Index.aspx, ~/Views/Home/Index.ascx, ~/Views/Shared/Index.aspx, ~/Views/Shared/Index.ascx", Source="System.Web.Mvc"
+
+Это можно исправить, если указать путь к файлам. Для этого в метод [AppInitialize] (http://cognitex.blogspot.com/2009/05/aspnet-mvc_25.html) или в файл Global.asax.cs в метод Application_Start надо добавить следующий код:
+```c#
+ViewEngines.Engines.Clear();
+ViewEngines.Engines.Add(new WebFormViewEngine
+{
+    	MasterLocationFormats = new string[]
+        	{
+            	"~/Views/{0}.master",
+        	},
+    	ViewLocationFormats = new string[]
+        	{
+            	"~/Views/{0}.ascx",
+            	"~/Views/{0}.aspx",
+            	"~/Views/{1}/{0}.aspx",
+            	"~/Views/{1}/{0}.ascx",
+        	},
+    	PartialViewLocationFormats = new string[]
+        	{
+            	"~/Views/{0}.aspx",
+            	"~/Views/{0}.ascx",
+            	"~/Views/{1}/{0}.ascx",
+        	}
+});
+```
+А также: 
+<ol>
+  <li>во всех aspx-файлах в атрибуте MasterPageFile надо в значении "~/Views/Shared/Site.Master" удалить Shared</li>
+  <li>в файле Site.Master в теге link в атрибуте href надо удалить начальный "../"</li>
+</ol>
