@@ -1,3 +1,8 @@
+---
+title: Реализация паттернов IoC, DI и Interception
+tags: [patterns]
+src: http://cognitex.blogspot.ru/2009/05/ioc-di-interception.html
+---
 # Реализация паттернов IoC, DI и Interception
 Паттерны: Inversion of Control (IoC), Dependency Injection (DI) и Interception реализованы в [Unity] (http://unity.codeplex.com/) (= Unity Application Block; есть исходники).
 
