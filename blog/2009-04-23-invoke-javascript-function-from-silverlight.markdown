@@ -1,3 +1,8 @@
+---
+title: Вызов JavaScript функции из Silverlight
+tags: [javascript, silverlight, html, c#]
+src: http://cognitex.blogspot.ru/2009/04/javascript-silverlight.html
+---
 # Вызов JavaScript функции из Silverlight
 Представим себе, что требуется периодически обращаться к сервису, например, за какими-то зашифрованными данными, обрабатывать их, результат выводить на страницу.
 Понятно, что JavaScript в такой ситуации не поможет, но можно использовать Silverlight. Для этого надо: 
