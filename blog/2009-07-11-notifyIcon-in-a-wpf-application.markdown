@@ -1,3 +1,8 @@
+---
+title: NotifyIcon в WPF приложении
+tags: [winforms, wpf, c#]
+src: http://cognitex.blogspot.ru/2009/07/notifyicon-wpf.html
+---
 # NotifyIcon в WPF приложении
 Задача: после запуска WPF Application в system tray, т.е. в правом нижнем углу экрана должна появиться иконка; при щелчке мышью по иконке надо показать окно; закрытие окон не должно приводить к закрытию приложения.
 
