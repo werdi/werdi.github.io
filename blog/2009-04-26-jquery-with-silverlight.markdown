@@ -1,3 +1,8 @@
+---
+title: Использование JQuery в Silverlight
+tags: [asp.net mvc, jquery, silverlight, html, c#]
+src: http://cognitex.blogspot.ru/2009/04/jquery-silverlight.html
+---
 # Использование JQuery в Silverlight
 Вместе с [ASP.NET MVC] (http://www.asp.net/mvc/) поставляется [JQuery] (http://jquery.com/) ([краткое описание] (http://ru.wikipedia.org/wiki/JQuery)).
 Предположим, что Silverlight-приложение используется на одной из страниц ASP.NET MVC проекта, на которой есть вызов JQuery. Т.е. в html-коде страницы в head указан тег:
