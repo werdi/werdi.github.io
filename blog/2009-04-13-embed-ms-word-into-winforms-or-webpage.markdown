@@ -1,6 +1,6 @@
 ---
 title: Как встроить Word в WinForms или веб-страницу
-tags: [embed, office, web, winforms]
+tags: [embed, office, web, winforms, c#]
 src: http://cognitex.blogspot.ru/2009/04/word-winforms.html
 ---
 # Как встроить Word в WinForms или веб-страницу
