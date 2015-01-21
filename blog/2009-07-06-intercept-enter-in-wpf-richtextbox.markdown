@@ -1,4 +1,9 @@
-# WPF: Перехват нажатия Enter в RichTextBox
+---
+title: WPF. Перехват нажатия Enter в RichTextBox
+tags: [richtextbox, wpf, xaml, c#]
+src: http://cognitex.blogspot.ru/2009/07/wpf-enter-richtextbox.html
+---
+# WPF. Перехват нажатия Enter в RichTextBox
 Дано:
 ```xaml
 <UserControl x:Class="Editor.TextEditor"
