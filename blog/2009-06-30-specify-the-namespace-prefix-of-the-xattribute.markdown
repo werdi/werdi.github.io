@@ -1,6 +1,11 @@
+---
+title: Как определить префикс у имени XAttribute
+tags: [xaml, c#]
+src: http://cognitex.blogspot.ru/2009/06/xattribute.html
+---
 # Как определить префикс у имени XAttribute
 Если требуется программно создать xaml:
-```xml
+```xaml
 <Grid>
   	<Style x:Key="Style1">
     	<Setter Property="Rectangle.Fill" Value="Yellow" />
