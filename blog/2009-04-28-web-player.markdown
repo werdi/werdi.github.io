@@ -1,3 +1,8 @@
+---
+title: Веб-проигрыватель
+tags: [media, silverlight, web, html]
+src: http://cognitex.blogspot.ru/2009/04/blog-post_28.html
+---
 # Веб-проигрыватель
 Например, при загрузке веб-страницы в браузер надо начать проигрывание .mp3-файла. Сделать это можно с помощью Silverlight:
 ```html
