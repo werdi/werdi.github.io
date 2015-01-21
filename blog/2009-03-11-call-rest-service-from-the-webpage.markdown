@@ -1,6 +1,6 @@
 ---
 title: Вызов REST сервиса с веб-страницы
-tags: [rest, services, soap, web]
+tags: [rest, services, soap, web, html, javascript]
 src: http://cognitex.blogspot.ru/2009/03/rest.html
 ---
 # Вызов REST сервиса с веб-страницы
