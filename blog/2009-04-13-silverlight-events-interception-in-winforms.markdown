@@ -1,6 +1,6 @@
 ---
 title: Перехват событий Silverlight в WinForms
-tags: [out-of-browser, silverlight, winforms]
+tags: [out-of-browser, silverlight, winforms, c#]
 src: http://cognitex.blogspot.ru/2009/04/silverlight-winforms_13.html
 ---
 # Перехват событий Silverlight в WinForms
