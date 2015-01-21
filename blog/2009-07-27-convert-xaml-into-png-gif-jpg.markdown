@@ -1,3 +1,8 @@
+---
+title: XAML-> PNG | GIF | JPG | ...
+tags: [drawing, xaml, c#, png, gif,jpg]
+src: http://cognitex.blogspot.ru/2009/07/xaml-png-gif-jpg.html
+---
 # XAML-> PNG | GIF | JPG | ... 
 Из XAML можно получить изображение в формате PNG, GIF, JPG. Ниже пример создания PNG-файла.
 ```c#
