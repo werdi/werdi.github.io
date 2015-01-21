@@ -1,8 +1,13 @@
+---
+title: ASP.NET MVC лучше ASP.NET
+tags: [asp.net mvc, aspx]
+src: http://cognitex.blogspot.ru/2009/05/aspnet-mvc-aspnet.html
+---
 # ASP.NET MVC лучше ASP.NET
 ASP.NET развивает привычку использовать контролы. Чтобы вывести несколько строк на страницу надо взять, например, asp:repeater и указать для него источник данных. Если надо вывести "полосатую" таблицу, то в репитере существуют соответствующие шаблоны.
 Все к этому привыкли. 
 Но старые привычки мешают при разработке в ASP.NET MVC. Если надо вывести список, то в ascx или aspx проще сделать так:
-```c#
+```aspx
 <%
     	foreach (var item in this.Model.Items)
     	{
