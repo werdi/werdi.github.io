@@ -1,3 +1,8 @@
+---
+title: Как получить Action по имени метода
+tags: [delegate, lambda, c#]
+src: http://cognitex.blogspot.ru/2009/07/action.html
+---
 # Как получить Action по имени метода
 Есть класс, в котором определен метод Test, например:
 ```c#
