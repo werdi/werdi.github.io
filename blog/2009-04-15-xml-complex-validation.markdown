@@ -1,6 +1,6 @@
 ---
 title: Сложная валидация XML
-tags: [xml, xmlreader, xpath, xsd]
+tags: [xml, xmlreader, xpath, xsd, c#]
 src: http://cognitex.blogspot.ru/2009/04/xml_15.html
 ---
 # Сложная валидация XML
