@@ -1,3 +1,8 @@
+---
+title: Как перехватить трафик ASP.NET Development Server'а
+tags: [asp.net, fiddler, testing]
+src: http://cognitex.blogspot.ru/2009/04/aspnet-development-server.html
+---
 # Как перехватить трафик ASP.NET Development Server'а
 
 Ситуация: ASP.NET Development Server работает по адресу http://localhost:3840; требуется перехватить все запросы и ответы сервера. 
