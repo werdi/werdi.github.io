@@ -1,3 +1,8 @@
+---
+title: Как получить текст script'ов в Silverlight
+tags: [javascript, silverlight, c#]
+src: http://cognitex.blogspot.ru/2009/04/script-silverlight.html
+---
 # Как получить текст script'ов в Silverlight
 С помощью метода GetJavaScripts можно получить список скриптов, размещенных на веб-странице:
 ```c#
