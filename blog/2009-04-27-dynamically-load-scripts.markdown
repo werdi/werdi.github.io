@@ -1,6 +1,11 @@
+---
+title: Динамическая загрузка скриптов
+tags: [html, ie, javascript, silverlight, c#]
+src: http://cognitex.blogspot.ru/2009/04/silverlight.html
+---
 # Динамическая загрузка скриптов
 Например, на веб-сайте в папке Script есть файл JScript.js:
-```js
+```javascript
 function Test()
 {
     	alert("TEST");
