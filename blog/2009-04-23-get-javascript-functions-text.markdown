@@ -1,6 +1,11 @@
+---
+title: Как получить текст JavaScript-функции
+tags: [javascript, silverlight, c#]
+src: http://cognitex.blogspot.ru/2009/04/javascript.html
+---
 # Как получить текст JavaScript-функции
 Если имя JavaScript-функции известно, и функция определена в одном из тегов SCRIPT на веб-странице, либо она находится в отдельном .js-файле, то ее текст можно получить в Silverlight-приложении следующим образом:
-```javascript
+```c#
 var tmp = HtmlPage.Window.Eval("'' + MyFunc;");
 ```
 Если ''+ не указать, то в tmp окажется ссылка на System.Windows.Browser.ScriptObject;
