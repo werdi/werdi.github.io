@@ -1,3 +1,8 @@
+---
+title: Как изменить поведение RichTextBox при нажатии Enter
+tags: [richtextbox, wpf, xaml, c#]
+src: http://cognitex.blogspot.ru/2009/07/richtextbox-enter.html
+---
 # Как изменить поведение RichTextBox при нажатии Enter
 Обычно при нажатии Enter в RichTextBox создается новый параграф, который отделяется от предыдущего пустой строкой. Например, если набрать Hello, World!, поместить курсор перед World и нажать Enter, то получим:
 Hello,
