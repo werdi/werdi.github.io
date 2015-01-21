@@ -1,3 +1,8 @@
+---
+title: Как добавить роут в существующий сайт ASP.NET MVC
+tags: [asp.net mvc, routing, c#]
+src: http://cognitex.blogspot.ru/2009/05/aspnet-mvc_25.html
+---
 # Как добавить роут в существующий сайт ASP.NET MVC
 В ASP.NET MVC проекте добавление роутов происходит в Global.asax.cs, который после компиляции проекта становится недоступен. Если при этом надо добавить свой роут, то это можно сделать в так называемом well-known методе AppInitialize. 
 Для этого: 
