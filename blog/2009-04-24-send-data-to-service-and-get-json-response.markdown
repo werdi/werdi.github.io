@@ -1,3 +1,8 @@
+---
+title: Как передать данные методу сервиса и получить json-ответ
+tags: [asp.net, json, rest, c#]
+src: http://cognitex.blogspot.ru/2009/04/json.html
+---
 # Как передать данные методу сервиса и получить json-ответ
 Предположим, что требуется к существующему сервису [Providers.DataProvider] (http://cognitex.blogspot.com/2009/04/blog-post_24.html) добавить метод, доступный по адресу "/Now/<name>=<number>", где вместо <name> должно быть указано какое-то слово, а вместо <number> - какое-то число. В ответ сервис пришлет ответ в json-формате: 
 {"Name":"\"<name>\"","Value":<value>}
