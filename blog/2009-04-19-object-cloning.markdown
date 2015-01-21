@@ -1,6 +1,6 @@
 ---
 title: Клонирование объектов
-tags: [reflection]
+tags: [reflection, c#]
 src: http://cognitex.blogspot.ru/2009/04/blog-post.html
 ---
 # Клонирование объектов
