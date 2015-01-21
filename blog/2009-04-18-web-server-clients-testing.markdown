@@ -1,6 +1,6 @@
 ---
 title: Тестируем работу клиента web-сервера
-tags: [fiddler, testing]
+tags: [fiddler, testing, web server, c#]
 src: http://cognitex.blogspot.ru/2009/04/web.html
 ---
 # Тестируем работу клиента web-сервера
