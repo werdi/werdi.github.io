@@ -1,6 +1,6 @@
 ---
 title: Вызов DomainService с веб-страницы
-tags: [fiddler, javascript, ria services, xmlhttprequest]
+tags: [fiddler, javascript, ria services, xmlhttprequest, xml, json, c#, aspx]
 src: http://cognitex.blogspot.ru/2009/04/domainservice.html
 ---
 # Вызов DomainService с веб-страницы
