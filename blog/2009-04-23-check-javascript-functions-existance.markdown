@@ -1,3 +1,8 @@
+---
+title: Как проверить existance JavaScript-функции
+tags: [javascript, silverlight, c#]
+src: http://cognitex.blogspot.ru/2009/04/javascript_23.html
+---
 # Как проверить existance JavaScript-функции
 Из Silverlight-приложения можно проверить existance (существование) функции с помощью следующего метода:
 ```c#
