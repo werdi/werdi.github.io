@@ -1,6 +1,6 @@
 ---
 title: Особенность HttpWebResponse.Headers
-tags: [feature, httpwebresponse, webheadercollection]
+tags: [feature, httpwebresponse, webheadercollection, c#]
 src: http://cognitex.blogspot.ru/2009/04/httpwebresponseheaders.html
 ---
 # Особенность HttpWebResponse.Headers
