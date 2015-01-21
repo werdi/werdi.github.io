@@ -1,3 +1,8 @@
+---
+title: Подключение сервиса к работающему сайту
+tags: [asp.net, rest, services, web, c#, aspx, html, xml]
+src: http://cognitex.blogspot.ru/2009/04/blog-post_24.html
+---
 # Подключение сервиса к работающему сайту
 Предположим, что есть ASP.NET сайт, созданный в Visual Studio 2008: 
 <ol>
