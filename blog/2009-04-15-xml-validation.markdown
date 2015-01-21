@@ -1,6 +1,6 @@
 ---
 title: Валидация XML
-tags: [xml, xmlreader, xsd]
+tags: [xml, xmlreader, xsd, c#]
 src: http://cognitex.blogspot.ru/2009/04/xml.html
 ---
 # Валидация XML
@@ -16,7 +16,7 @@ src: http://cognitex.blogspot.ru/2009/04/xml.html
 </root>
 ```
 Требуется выполнить валидацию XML, например, проверить уникальность значений атрибутов id у вложенных (nested) тегов item. Для это надо определить схему xml в виде .xsd-файла:
-```xml
+```xsd
 <?xml version="1.0" standalone="yes"?>
 <xs:schema id="root" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
   	<!-- корневым тегом может быть root -->
