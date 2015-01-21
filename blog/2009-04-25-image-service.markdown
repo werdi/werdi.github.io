@@ -1,3 +1,8 @@
+---
+title: Сервис изображений
+tags: [asp.net, rest, web client, c#, html, xml]
+src: http://cognitex.blogspot.ru/2009/04/blog-post_25.html
+---
 # Сервис изображений
 Например, необходимо на сайт добавить сервис, который будет динамически создавать изображения (.gif-формат) в ответ на запрос: "/image/logo,hello,RedOnMaroon", где logo - это тип изображения, hello - текст на изображении, Red - цвет текста, Maroon - цвет фона.
 Ниже приводится метод, который необходимо добавить в [сервис] (http://cognitex.blogspot.com/2009/04/blog-post_24.html):
