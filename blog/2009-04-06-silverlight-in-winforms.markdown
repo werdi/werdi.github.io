@@ -1,6 +1,6 @@
 ---
 title: Silverlight в WinForms
-tags: [out-of-browser, silverlight, winforms, xaml]
+tags: [out-of-browser, silverlight, winforms, xaml, c#]
 src: http://cognitex.blogspot.ru/2009/04/silverlight-winforms.html
 ---
 # Silverlight в WinForms
