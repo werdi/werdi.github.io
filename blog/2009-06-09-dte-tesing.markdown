@@ -1,3 +1,8 @@
+---
+title: Тестируем DTE
+tags: [visual studio, testing, c#]
+src: http://cognitex.blogspot.ru/2009/06/dte.html
+---
 # Тестируем DTE
 Предположим, что требуется протестировать открытие определенного проекта в Visual Studio. Для этого надо:
 <ol>
