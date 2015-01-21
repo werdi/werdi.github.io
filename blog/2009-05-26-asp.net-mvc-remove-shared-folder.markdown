@@ -1,4 +1,9 @@
-# ASP.NET MVC: как избавиться от папки Shared
+---
+title: ASP.NET MVC. Как избавиться от папки Shared
+tags: [asp.net mvc, c#]
+src: http://cognitex.blogspot.ru/2009/05/aspnet-mvc-shared.html
+---
+# ASP.NET MVC. Как избавиться от папки Shared
 Если в Visual Studio 2008 создать ASP.NET MVC Web Application, то окажется, что в корне сайта есть папка Views, в которой есть папка Shared со следующими файлами: Site.Master, Error.aspx и LogOnUserControl.ascx 
 
 Например, если удалить папку Shared, а файл Site.Master поместить в папку Views, то в рантайме получим сообщение об ошибке: 
