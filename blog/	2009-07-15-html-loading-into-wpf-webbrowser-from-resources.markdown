@@ -1,4 +1,9 @@
-# WPF: загрузка html в WebBrowser из ресурсов
+---
+title: WPF. Загрузка html в WebBrowser из ресурсов
+tags: [resources, webbrowser, wpf, xaml, c#]
+src: http://cognitex.blogspot.ru/2009/07/wpf-html-webbrowser.html
+---
+# WPF. Загрузка html в WebBrowser из ресурсов
 Есть следующий xaml, в котором определен WebBrowser:
 ```xaml
 <Window x:Class="WpfApplication6.Window1"
