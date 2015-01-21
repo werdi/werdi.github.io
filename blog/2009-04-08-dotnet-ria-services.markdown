@@ -1,6 +1,6 @@
 ---
 title: .NET RIA Services
-tags: [asp.net, ria services, silverlight]
+tags: [asp.net, ria services, silverlight, xml, c#]
 src: http://cognitex.blogspot.ru/2009/04/net-ria-services.html
 ---
 # .NET RIA Services
