@@ -1,6 +1,6 @@
 ---
 title: Ограничение доступа к страницам в ASP.NET MVC
-tags: [asp.net mvc, autorisation]
+tags: [asp.net mvc, autorisation, c#]
 src: http://cognitex.blogspot.ru/2009/03/blog-post_06.html
 ---
 # Ограничение доступа к страницам в ASP.NET MVC
