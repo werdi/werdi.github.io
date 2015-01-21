@@ -1,6 +1,6 @@
 ---
 title: Реализация паттернов IoC, DI и Interception
-tags: [patterns]
+tags: [patterns, c#]
 src: http://cognitex.blogspot.ru/2009/05/ioc-di-interception.html
 ---
 # Реализация паттернов IoC, DI и Interception
