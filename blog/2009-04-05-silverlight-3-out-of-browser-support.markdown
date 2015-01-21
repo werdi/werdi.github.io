@@ -1,13 +1,13 @@
 ---
 title: Silverlight 3. Out-of-Browser Support
-tags: [out-of-browser, silverlight]
+tags: [out-of-browser, silverlight, xaml]
 src: http://cognitex.blogspot.ru/2009/04/silverlight-3-winform.html
 ---
 
 # Silverlight 3: Out-of-Browser Support
 
 В Silverlight 3 добавлена поддержка Out-of-Browser - возможность запускать приложение вне браузера - определяется разработчиком приложения. Для этого в Visual Studio в Solution Explorer'е надо открыть файл AppManifest.xml (находится в Properties) и добавить в него, например, следующий xml-код:
-```xml
+```xaml
 <Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment"
         	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   	<Deployment.Parts>
