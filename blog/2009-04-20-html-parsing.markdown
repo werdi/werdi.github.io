@@ -1,6 +1,6 @@
 ---
 title: Парсинг HTML'а
-tags: [feature, html, mshtml, webclient]
+tags: [feature, html, mshtml, webclient, c#]
 src: http://cognitex.blogspot.ru/2009/04/html-regex.html
 ---
 # Парсинг HTML'а
