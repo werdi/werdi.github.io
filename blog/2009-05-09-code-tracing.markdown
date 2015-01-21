@@ -1,3 +1,8 @@
+---
+title: Трассировка кода
+tags: [.net, trace, c#]
+src: http://cognitex.blogspot.ru/2009/05/blog-post_6462.html
+---
 # Трассировка кода
 Трассировка (журналирование / аудит) - это вывод информации о текущем состоянии программы.
 
@@ -21,7 +26,7 @@ public class MyClass
 ```
 
 В результате запуска debugger'а в окне Immadiate Window или Output Window (зависит от настроек) появятся следующие строки:
-```
+```c#
 MyClass Information: 0 : Method start
 MyClass Information: 0 : Method done
 ```
