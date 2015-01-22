@@ -1,6 +1,6 @@
 ---
 title: База данных за 5 минут
-tags: [db, linq to sql, xml, c#]
+tags: [db, linq to sql, xml, dbml, c#]
 src: http://cognitex.blogspot.ru/2009/05/5.html
 ---
 # База данных за 5 минут
@@ -13,7 +13,7 @@ src: http://cognitex.blogspot.ru/2009/05/5.html
   <li>В Solution Explorer стать на DataClasses1.dbml и в контекстном меню выбрать Open With... - Xml Editor - OK. Возможно появится диалог; в нем нажать Yes</li>
   <li>В открывшийся файл вставить следующий xml:</li>
 </ol>
-```xml
+```dbml
 <?xml version="1.0" encoding="utf-8"?>
 <Database Class="AppDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   	<Table Name="" Member="AppData">
