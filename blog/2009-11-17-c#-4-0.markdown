@@ -1,0 +1,47 @@
+---
+title: C# 4.0
+tags: [c#]
+src: http://mindberg.blogspot.ru/2008/11/c-40.html
+---
+# C# 4.0
+В C# 4.0 добавлены новые возможности. Анонимные объекты можно передавать в метод и обращаться к свойствам/методам объекта:
+```c#
+public Form1()
+{
+  var item = new { Id = 1, Value = "v1"};
+  Write(item);
+  
+  var data = new { Id = 1, Name = "d1" };
+  Write(data);
+}
+
+public static void Write(dynamic value)
+{
+  System.Diagnostics.Trace.Write(value.Id);
+}
+```
+Появляется возможность приводить тип обобщенных делегатов:
+```c#
+
+delegate T Provider<out T>();
+...
+
+Provider<int> vp = delegate
+{
+   return 1;
+};
+Provider<object> op = vp;
+vp =(Provider<int>) op;
+```
+Добавлены значения параметров по-умолчанию и именованные параметры:
+```c#
+public void Method(int id, string name = "name", int value = 1)
+{
+}
+```
+Вызывать можно так:
+```c#
+Method(1);
+Method(1, "my name");
+Method(1, value: 10); 
+```
