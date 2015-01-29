@@ -1,6 +1,6 @@
 ---
 title: How to embed Windows Explorer or OpenFileDialog in my WinForm?
-tags: [c#, winforms]
+tags: [c#, winforms, interop]
 src: https://social.msdn.microsoft.com/Forums/ru-RU/cb19ac9e-e345-4b7d-a29f-78e62d559d3b/how-to-embed-windows-explorer-or-openfiledialog-in-my-winform?forum=winforms
 ---
 # Embedding Windows Explorer or OpenFileDialog in WinForm
