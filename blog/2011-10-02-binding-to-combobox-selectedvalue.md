@@ -5,7 +5,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/b0daed1b-8a2e-49db-b824-4b16
 ---
 # Binding to ComboBox SelectedValue and to the ItemsSource
 as far as I could understand, you trying to make master-details binding.
- if so, the following example will be helpful
+if so, the following example will be helpful
 ```xaml
 <Window x:Class="WpfApplication1.MainWindow"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

@@ -7,7 +7,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/38d76da6-7c6a-40af-a47e-8aab
 *> two listboxes are displayed, but the trick is, the user can select different entries in the first listbox, and depending on the selected index, different entries should be displayed in the second listbox.*
 
 if i understood correctly, you need master/details scenario.
- below is an example.
+below is an example.
 ```xaml
 <Window x:Class="WpfApplication8.MainWindow"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

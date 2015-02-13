@@ -7,7 +7,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/a2f6e706-c1cd-475f-82fe-823c
 *> I have try the code but i have nothing , there are no numbers at the button :/Here is the code , Am i doing something wrong ?*
 
 on the server you trying to operate with button which is in the web browser on client.
- for changing button text on the client, the html should contains javascript. something like this: 
+for changing button text on the client, the html should contains javascript. something like this: 
 ```
 <script language='javascript'>
   var index = 0;
@@ -17,7 +17,7 @@ on the server you trying to operate with button which is in the web browser on c
 <button id='btn'>test</button>
 ```
 *> Can I read values from a array that is used in the form.aspx.cs , which is already defined ...
- ArrayList lstNumbers = nbs.RandomNumbers(Total); ( 36 numbers )*
+ArrayList lstNumbers = nbs.RandomNumbers(Total); ( 36 numbers )*
 
 sure, if this numbers will be transferred to the client.
 something like this:

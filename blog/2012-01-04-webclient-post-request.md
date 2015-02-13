@@ -22,8 +22,8 @@ w.UploadValues("http://site.net/", c)   // отправит: k1=v1&k2=v2
 ```
 *> как перевести строку такого вида :[{"id":1,"name":"Бабслет", [...] в нормальный вид(масив или что то в это роде).*
 
-см. [Working with JSON Data] (http://msdn.microsoft.com/en-us/library/cc197957(v=vs.95).aspx); 
-[Making use of your JSON data in Silverlight] (http://timheuer.com/blog/archive/2008/05/06/use-json-data-in-silverlight.aspx)
+см. [Working with JSON Data](http://msdn.microsoft.com/en-us/library/cc197957(v=vs.95).aspx); 
+[Making use of your JSON data in Silverlight](http://timheuer.com/blog/archive/2008/05/06/use-json-data-in-silverlight.aspx)
 
 *> Я пытался сделать так но все равно что то не то 8(*
 

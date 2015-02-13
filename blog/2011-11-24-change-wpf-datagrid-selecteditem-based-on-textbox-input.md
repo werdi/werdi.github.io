@@ -7,7 +7,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/f25a1b60-c06c-4f5c-99eb-766b
 *> if i have more data's in DataGrid its finds very slowSo i have a plan to use DataGrid as Objects.*
 
 with DataView you'll get a fast search.
- below is an example of searching among 10000 rows.
+below is an example of searching among 10000 rows.
 ```xaml
 <Window x:Class="WpfApplication7.MainWindow"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

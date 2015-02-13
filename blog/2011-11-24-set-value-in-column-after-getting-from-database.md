@@ -7,8 +7,8 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/be38218d-1acb-4cb8-b595-1c74
 *> I am using DataGridViewComboBoxColumn and column datasource is bound with a datatable and on loading data from Database column value will be show as empty... It doesn't work....*
 
 there is no need to use a DataTable, if you want to populate combobox with data from the database.
- try the following example.
- before launch, ensure SQL Server (SQLEXPRESS) service is working.
+try the following example.
+before launch, ensure SQL Server (SQLEXPRESS) service is working.
 ```c# 
 using System.Data.Entity;
 using System.Windows.Forms;

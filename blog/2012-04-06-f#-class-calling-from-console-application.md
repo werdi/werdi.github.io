@@ -18,13 +18,13 @@ Console.ReadKey();
 *> I don't understand why use " var f = new cyber.fetch(null);" I think var means the "f"  is an object, right?*
 
 the var keyword instructs the compiler to infer the type of the variable.
- so, instead of "var f = ..." you can write "cyber.fetch f = ..."
- for more information, see var (C#)
+so, instead of "var f = ..." you can write "cyber.fetch f = ..."
+for more information, see var (C#)
 
 *> To call class in F#, pass the parameter (null) to cyber.fetch?*
 
 because the constructor's parameter is never used. also it seems the webString method is unnecessary.
- so you can rewrite the fetch type as below:
+so you can rewrite the fetch type as below:
 ```f#
 type fetch() =
   member this.getString(url:string) = 

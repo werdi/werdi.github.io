@@ -7,7 +7,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/2aa61d5c-6804-46e3-b186-7515
 *> It's for a WinForms application. What I need to do is create the XML file [...] If, by any chance, the user cancel and continues at a later stage, I need to provide them with the values they have provided earlier and be able to modify those values.*
 
 take a look at my examples here.
- below is another one with different type of bindings.
+below is another one with different type of bindings.
 ```c#
 using System;
 using System.Data;
@@ -49,7 +49,7 @@ namespace WindowsFormsApplication0
       // navigator
       var p = new Panel { Parent = this, Dock = DockStyle.Bottom, Height = 30, Padding = new Padding(0, 0, 100, 5) };
       new Button { Parent = p, Dock = DockStyle.Right, Text = "Prev", Width = 100 }
-          .Click += (s, e) => tc.SelectTab(0);
+        .Click += (s, e) => tc.SelectTab(0);
       new Button { Parent = p, Dock = DockStyle.Right, Text = "Next", Width = 100 }
         .Click += (s, e) => tc.SelectTab(1);
       // xml view

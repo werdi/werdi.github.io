@@ -40,7 +40,7 @@ event EventHandler<KeyEventArgs> IEditorService.KeyDown
 }
 private EventHandler<KeyEventArgs> _KeyDown;
 ```
-Кода меньше, что радует пальцы и мозг J. Хотя больше радуется мозг, потому что пальцам можно помочь с помощью Snippet'ов, поддержка которых есть в Visual Studio.
+Кода меньше, что радует пальцы и мозг. Хотя больше радуется мозг, потому что пальцам можно помочь с помощью Snippet'ов, поддержка которых есть в Visual Studio.
 
 Про снипеты...
 

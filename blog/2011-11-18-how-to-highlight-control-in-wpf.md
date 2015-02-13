@@ -8,8 +8,8 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/82a323dd-5d87-43b3-9d22-56b2
 *> How can I highlight a control (a boarder of the control like the spy++ do) in my WPF application in real time?*
 
 first you need to get window under mouse pointer.
- then create transparent window with solid border.
- an example of transparent window is [here](http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/c32889d3-effa-4b82-b179-76489ffa9f7d#408c8a8a-991f-4a75-a826-7c0feaeda830).
+then create transparent window with solid border.
+an example of transparent window is [here](http://social.msdn.microsoft.com/Forums/en-US/wpf/thread/c32889d3-effa-4b82-b179-76489ffa9f7d#408c8a8a-991f-4a75-a826-7c0feaeda830).
 
 *> externally, if I have the windowHandle (I can get the window under the mouse)*
 

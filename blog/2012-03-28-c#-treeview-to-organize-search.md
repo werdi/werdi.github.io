@@ -41,7 +41,7 @@ IEnumerable<TreeNode> Flatten(TreeNodeCollection tc)
   }
 }
 ```
-если надо подсветить/выделить часть TreeNode.Text, то см. [здесь] (http://social.msdn.microsoft.com/Forums/en-US/winforms/thread/7e7b25bd-7adf-43c1-8546-08a308084cf5/#b2b2dbd6-94ff-4725-9f61-970914fe28a6)
+если надо подсветить/выделить часть TreeNode.Text, то см. [здесь](http://social.msdn.microsoft.com/Forums/en-US/winforms/thread/7e7b25bd-7adf-43c1-8546-08a308084cf5/#b2b2dbd6-94ff-4725-9f61-970914fe28a6)
 
 *> После того как  нашёл необходимого сотрудника по событию afterselect должна появляться новая форма, привязанная именно для этого сотрудника.*
 
@@ -49,8 +49,8 @@ IEnumerable<TreeNode> Flatten(TreeNodeCollection tc)
 ```c#
 tv.AfterSelect += (s, e) => 
 {
- var frm = new SomeForm(e.Node);
- frm.ShowDialog();
+  var frm = new SomeForm(e.Node);
+  frm.ShowDialog();
 };
 ```
 или примерно такой код:

@@ -51,7 +51,7 @@ foreach(var itm in dif)
   System.Diagnostics.Trace.WriteLine(itm);
 ```
 P.S.
- sometimes, when you have a lot of data, it makes sense to load them into the database and then perform a comparing using sql in stored procedure
+sometimes, when you have a lot of data, it makes sense to load them into the database and then perform a comparing using sql in stored procedure
 
 *> Can you please also let me see how you have cache these lists.*
 
@@ -69,7 +69,7 @@ by the way, if you need to store tbl between some method calls, then store tbl i
 *> Problem was infact not enum.Isdefine but one another method which check the a description over enumeration value ...*
 
 I rethought your issue. it would be better to use just a static variables for caching instead of MemoryCache.
- try using the following class.
+try using the following class.
 ```c#
 using System;
 using System.Collections.Generic;

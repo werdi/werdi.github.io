@@ -7,7 +7,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/d62a5efc-1718-49d3-a6e7-6b82
 *> I am trying to extrac all the attributes from a xml file. [...] What I want are the following attributes: TransactionTypeCode="1" ServicerNumber="xxxx187" ServicerLoanNumber="xxx32" ProcessingStatusCode*
 
 below is an example, which extracts all the attributes using ReadAll method.
- and a specified attributes using the Read Method
+and a specified attributes using the Read Method
 ```c#
 using System;
 using System.Collections.Generic;

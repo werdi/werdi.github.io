@@ -103,7 +103,7 @@ namespace WpfApplication8
 }
 ``` 
 p.s.
- instead of the following:
+instead of the following:
 ```c#    
 ParameterizedThreadStart fn = state => { /* ... */ };
 new Thread(fn).Start(AsyncOperationManager.CreateOperation(some));

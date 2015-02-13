@@ -87,7 +87,7 @@ if your xml format is like in first post, then you need to transform format.
 it's possible with [XslCompiledTransform](http://msdn.microsoft.com/en-us/library/system.xml.xsl.xslcompiledtransform.aspx)
  
 if you need to load xml from file, then use ds.ReadXml(yourxmlfilepath);
- instead of ds.ReadXml(new StringReader(xml)); 
+instead of ds.ReadXml(new StringReader(xml)); 
 
 *> when i click on save, the xml is not saved nor updated*
 

@@ -7,7 +7,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/f3c51598-3976-41b2-b49d-0b6e
 *> In this I am unable to add any records/modify any values in datagrid. datagrid not allowing me to add new rec. [...] dataGridView1.DataSource = q.ToList();*
 
 instead of ToList try to use ToBindingList
- below is an example
+below is an example
 ```c#
 using System.Data.Entity;
 using System.Windows.Forms;

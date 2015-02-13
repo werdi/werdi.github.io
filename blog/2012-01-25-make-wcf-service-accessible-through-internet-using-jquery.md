@@ -20,30 +20,30 @@ using System.ServiceModel.Web;
 
 namespace Test 
 { 
- [ServiceContract] 
- public class Provider 
- { 
-   [OperationContract] 
-   [WebGet(UriTemplate = "/M1/", ResponseFormat = WebMessageFormat.Xml)] 
-   public long Now() { return DateTime.Now.Ticks; } 
+  [ServiceContract] 
+  public class Provider 
+  { 
+    [OperationContract] 
+    [WebGet(UriTemplate = "/M1/", ResponseFormat = WebMessageFormat.Xml)] 
+    public long Now() { return DateTime.Now.Ticks; } 
 
-   [OperationContract] 
-   [WebGet(UriTemplate = "/M2/{value}={key}")] 
-   public string GetSome(string key, string value) 
-   { 
-    return "hello: " + key + " " + value; 
-   } 
- } 
+    [OperationContract] 
+    [WebGet(UriTemplate = "/M2/{value}={key}")] 
+    public string GetSome(string key, string value) 
+    { 
+     return "hello: " + key + " " + value; 
+    } 
+  } 
 }
 ```
 [js]
 ```javascript
 <script language="javascript"> 
 function Get(uri) { 
- var x = new XMLHttpRequest(); 
- x.open("GET", uri, false, null, null); 
- x.send(); 
- return x.responseText; 
+  var x = new XMLHttpRequest(); 
+  x.open("GET", uri, false, null, null); 
+  x.send(); 
+  return x.responseText; 
 } 
 </script>
 ```

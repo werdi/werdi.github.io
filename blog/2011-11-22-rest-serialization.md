@@ -7,8 +7,8 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/b317d235-0570-4d4e-b87e-04a7
 *> Хочу сделать сервисы WCF REST [...] что бы DataTable сериализовывался в понятный XML (и затем в JSON)*
 
 чтобы вернуть JSON надо указать WebMessageFormat.Json и вернуть все DataRow.ItemArray.
- (для компиляции: в свойствах проекта указать Target Framework = .NET Framework 4;
- и подключить сборки System.ServiceModel.Web.dll и System.ServiceModel.dll)
+(для компиляции: в свойствах проекта указать Target Framework = .NET Framework 4;
+и подключить сборки System.ServiceModel.Web.dll и System.ServiceModel.dll)
 ```c#
 using System;
 using System.Data;

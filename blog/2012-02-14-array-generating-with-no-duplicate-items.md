@@ -23,7 +23,7 @@ public IEnumerable Random(int count, int min, int max)
   }
 }
 ```
-см. другие способы [здесь] (http://social.msdn.microsoft.com/Forums/en-US/csharpgeneral/thread/f5dd6491-e2b3-4e77-927a-ad28aab85abc/)
+см. другие способы [здесь](http://social.msdn.microsoft.com/Forums/en-US/csharpgeneral/thread/f5dd6491-e2b3-4e77-927a-ad28aab85abc/)
 
 *> есть массив типа string, необходимо "перемешать" элементы массива с использованием Random.*
 ```c#
@@ -38,9 +38,9 @@ IEnumerable<T> Random<T>(IEnumerable<T> src)
   return src.OrderBy(x => rnd.Next());
 }
 ```
-см. другой способ [здесь] (http://stackoverflow.com/a/110570) (реализация Fisher-Yates algorithm)
+см. другой способ [здесь](http://stackoverflow.com/a/110570) (реализация Fisher-Yates algorithm)
 
 *> .OrderBy(x=>rnd.Next()); [...] это рискованный способ, такая сортировка может не сойтись... Или по крайней мере, будет работать дольше чем могла бы.*
 
 для коллекций из тысяч и более элементов можно использовать Guid.NewGuid() вместо Random.Next(), но в остальных случаях - оставить как есть.
- см. [здесь] (http://stackoverflow.com/questions/6188331/shuffle-string-array-without-duplicates#comment7211957_6197291): ".OrderBy(x=>rand.Next());, and you're done. [...] really, it's fine to order by a random key." -- Eric Lippert, a principal developer on the Microsoft Visual C# compiler team.
+см. [здесь] (http://stackoverflow.com/questions/6188331/shuffle-string-array-without-duplicates#comment7211957_6197291): ".OrderBy(x=>rand.Next());, and you're done. [...] really, it's fine to order by a random key." -- Eric Lippert, a principal developer on the Microsoft Visual C# compiler team.

@@ -5,7 +5,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/cfff93e9-fc30-4622-9868-bee6
 ---
 # Data access without using a Interface
 *> Normally a 3trd party component must implement a interface i defined in one of my assemblies.
- But, is there a other solution without using a interface? [...] If the external class doesn't habe a Method named Test() a NotSupportedException will thrown.*
+But, is there a other solution without using a interface? [...] If the external class doesn't habe a Method named Test() a NotSupportedException will thrown.*
 
 you can check existence of interface through the following methods:
 ```c#

@@ -7,8 +7,8 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/55d457fb-b256-4a58-b38f-6c80
 *> I'm using VS2010/wpf[c#]. I have 2 class namely, Player and Team.Its Like Master and Detail. [...] I want to Add/update/Delete. I have one button name, save. [...] I dont know how to call INotifyPropertyChanged in Save Button.*
 
 in your case there is no need to use INotifyPropertyChanged.
- below is an complete example. it creates teams/players editor based on a DataSet.
- (DataSet you can populate from xml string, from xml file, or from database)
+below is an complete example. it creates teams/players editor based on a DataSet.
+(DataSet you can populate from xml string, from xml file, or from database)
 ```xaml
 <Window x:Class="WpfApplication8.MainWindow"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"

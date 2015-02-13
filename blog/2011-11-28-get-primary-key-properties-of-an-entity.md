@@ -9,7 +9,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/6a4afbea-512b-4814-a2ee-1b2e
 you can read information from a database using the following method
 ```c#
 foreach(var c in IndexColumns(ds, "MyTable"))
-    System.Diagnostics.Trace.WriteLine(c);
+  System.Diagnostics.Trace.WriteLine(c);
 ...
 
 public IEnumerable<string> IndexColumns(System.Data.Entity.DbContext dc, string tableName)
@@ -37,8 +37,8 @@ PropertyInfo FindKey<T>() where T : EntityObject
   var et = typeof(T);
   var at = typeof(EdmScalarPropertyAttribute);
   var props = from p in et.GetProperties()
-    let attr = Attribute.GetCustomAttribute(p, at) as EdmScalarPropertyAttribute
-    select new { Property=p, IsKey = attr != null ? attr.EntityKeyProperty : false };
+              let attr = Attribute.GetCustomAttribute(p, at) as EdmScalarPropertyAttribute
+              select new { Property=p, IsKey = attr != null ? attr.EntityKeyProperty : false };
   return props.Where(p => p.IsKey == true).Select(p => p.Property).FirstOrDefault();
 }
 ```
@@ -64,9 +64,9 @@ class DataStore : DbContext
 *> My generated code for OnModelCreating is this: ...*
 
 is there any attribute over Id property? maybe [Key] or [KeyAttribute]?
- if so, try using the following code:
- ```c#
- using System.Linq;
+if so, try using the following code:
+```c#
+using System.Linq;
 ...
 var ka = GetAttribute<MyClass, KeyAttribute>("Id");
 ...

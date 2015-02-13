@@ -13,7 +13,7 @@ use WebBrowser for html5 rendering
 *> I've tried the same page with a standard IE9 browser (outside of a WPF application) and the video is displayed correctly.*
 
 could you please provide html which works in IE, but doesn't in WebBrowser?
- i'm wondering about !DOCTYPE and about html tag for the player.
+i'm wondering about !DOCTYPE and about html tag for the player.
 
 *> I was wondering whether anyone knew of a problem with Frame and WebBrowser controls and HTML5 video embedding, but I guess it is a very specific constellation and not something that a lot of people have an issue with.*
 

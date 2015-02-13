@@ -7,7 +7,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/ecb63bdf-812c-48a5-83c3-8ed6
 *> В форме много контролов (текстбоксы и комбобоксы). Есть ли какое-нибудь свойство (или событие) у формы, кот. показывает, был ли изменен какой-либо из этих контролов?*
 
 нет. надо подписываться на события в контролах. например, на TextBox.TextChanged, ComboBox.SelectedVaueChanged и т.д.
- но если контролы привязаны к DataSet, то см. метод DataSet.GetChanges
+но если контролы привязаны к DataSet, то см. метод DataSet.GetChanges
 
 *> заинтересовал метод DataSet.GetChanges [...]. Но  как им воспользоваться?*
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Про LINQ to SQL и INNER JOIN
 tags: [linq, sql, dbml, asp, c#]
 src: http://mindberg.blogspot.ru/2008/01/linq-to-sql-inner-join.html
@@ -18,7 +18,7 @@ Form:
 ```
 Ограничение:
 ```sql
-CONSTRAINT [Request_Form] FOREIGN KEY([RequestId]) REFERENCES [dbo].[Request] ([Id])
+CONSTRAINT [Request_Form] FOREIGN KEY([RequestId]) REFERENCES [dbo].[Request]([Id])
 ```
 В переводе на человеческий: есть таблица запросов Request, в которой хранятся идентификаторы и даты, а также есть таблица Form, 
 в которой хранятся пары Key и Value, при этом для одного Request может быть несколько строк в Form.
@@ -43,7 +43,7 @@ var mails = from frm in dc.Form
 Пример, использования в ASP.NET:
 ```asp
 <asp:DataGrid runat="server" ID="_MailList" AutoGenerateColumns="true" Width="100%"
- BorderWidth="0" AlternatingItemStyle-BackColor="#e0e0e0">
+  BorderWidth="0" AlternatingItemStyle-BackColor="#e0e0e0">
 </asp:DataGrid>
 …
 ```
@@ -70,7 +70,7 @@ _MailList.DataBind();        // запрос к SQL Server’у
   </Type>
 </Table>
 ```
-Знать .dbml -формат необязательно, потому что в Visual Studio 2008 есть графический редактор, с помощью которого достаточно легко создать схему БД и отношения между таблицами.
+Знать .dbml-формат необязательно, потому что в Visual Studio 2008 есть графический редактор, с помощью которого достаточно легко создать схему БД и отношения между таблицами.
 
 Кстати, у DataContext есть метод CreateDatabase(), который предназначен для создания файлов БД (.mdb-файл  - SQL Server; для SQL Server CE не проверял, но вроде тоже поддерживает) на основе .dbml-файла.
 

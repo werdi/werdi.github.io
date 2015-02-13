@@ -28,8 +28,8 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/c7d6391c-47f3-42ba-947e-57cc
 ```css
 .bull
 {
- padding: 0px 0px 0px 30px;
- float: left;
+  padding: 0px 0px 0px 30px;
+  float: left;
 }
 ```
 p.s.
@@ -72,7 +72,7 @@ p.s.
 
 для .bull надо указать list-style-position 
 
-![img1] (http://social.msdn.microsoft.com/Forums/getfile/89921)
+![img1](http://social.msdn.microsoft.com/Forums/getfile/89921)
 
 ```asp
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
