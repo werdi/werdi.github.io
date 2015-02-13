@@ -135,8 +135,8 @@ namespace WpfApplication6
 *>...instead of it binding to the listbox i want it bind to the comboboxes...*
 
 below is an example with comboboxes and optional contains textblock with multibinding to the combobox selected values.
- you can use this xaml with the codebehind i have posted above.
- ```xaml
+you can use this xaml with the codebehind i have posted above.
+```xaml
 <Window x:Class="WpfApplication6.MainWindow"
   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
