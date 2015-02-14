@@ -50,7 +50,7 @@ namespace WpfApplication7
     public DataView View;
 	}
 
-	public class Converter : MarkupExtension, IValueConverter
+  public class Converter : MarkupExtension, IValueConverter
 	{
     MainWindow Wnd;
     public object Convert(object value, System.Type targetType, object parameter, System.Globalization.CultureInfo culture)

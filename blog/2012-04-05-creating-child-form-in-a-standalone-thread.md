@@ -13,7 +13,7 @@ Task.Factory.StartNew(() => {    // загрузка данных
   var wc = new WebClient();
   return wc.DownloadString("http://microsoft.com"); })
 .ContinueWith(task => { // выполняется в основном потоке
-	tb.Text = task.Result; 
+  tb.Text = task.Result; 
 }, TaskScheduler.FromCurrentSynchronizationContext());      // вместо Dispatcher.Invoke
 ```
 перед Task.Factory.StartNew показываете сообщение, которое можно убрать после выполнения tb.Text = task.Result;

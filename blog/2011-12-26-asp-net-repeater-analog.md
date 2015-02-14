@@ -42,7 +42,7 @@ using System.Windows.Shapes;
 
 namespace SilverlightApplication3
 {
-	public partial class MainPage : UserControl
+  public partial class MainPage : UserControl
 	{
 		public MainPage()
 		{

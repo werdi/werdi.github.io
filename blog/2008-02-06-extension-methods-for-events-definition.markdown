@@ -35,8 +35,8 @@ private EventHandler<KeyEventArgs> _KeyDown;
 ```c#
 event EventHandler<KeyEventArgs> IEditorService.KeyDown
 {
- add { value.CombineWith(ref  _KeyDown); }
- remove { value.RemoveFrom(ref _KeyDown); }
+  add { value.CombineWith(ref  _KeyDown); }
+  remove { value.RemoveFrom(ref _KeyDown); }
 }
 private EventHandler<KeyEventArgs> _KeyDown;
 ```

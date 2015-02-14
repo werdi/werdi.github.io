@@ -19,7 +19,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/45d7014d-d66a-4cf2-ac59-9cad
 *> Начало документа XSL у меня такое: <xsl:template match = "/root"><html charset="utf-8">*
 
 т.е. <!DOCTYPE html> не выводится.
- DOCTYPE можно вывести в html с помощью xsl:text
+DOCTYPE можно вывести в html с помощью xsl:text
 ```xsl
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> 
   <xsl:output method="html" encoding="utf-8" indent="yes" /> 

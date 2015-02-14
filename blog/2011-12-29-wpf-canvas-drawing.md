@@ -10,7 +10,7 @@ src: https://social.msdn.microsoft.com/Forums/ru-RU/94464ebb-f34a-4ff8-9532-81e7
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 	x:Class="WpfApplication5.MainWindow"
-	x:Name="Window" Title="MainWindow" Width="640" Height="480">
+  x:Name="Window" Title="MainWindow" Width="640" Height="480">
   <Grid>
     <DockPanel VerticalAlignment="Top" HorizontalAlignment="Left">
       <Button Content="Add" Click="Add_Click" />
